@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opml version="2.0">
+    <head>
+        <title>Lil Wayne - Tha Carter II</title>
+        <flavor>dynalist</flavor>
+        <source>https://dynalist.io</source>
+        <ownerName>Patrick</ownerName>
+        <ownerEmail>patrickjdsquire@yahoo.com.au</ownerEmail>
+    </head>
+    <body>
+        <outline text="Lil Wayne"/>
+        <outline text="Tha Carter II"/>
+        <outline text="Rap"/>
+        <outline text="__much more old school rap__"/>
+        <outline text="5"/>
+    </body>
+</opml>

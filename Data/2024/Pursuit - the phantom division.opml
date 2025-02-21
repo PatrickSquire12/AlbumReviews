@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opml version="2.0">
+    <head>
+        <title>Pursuit - the phantom division</title>
+        <flavor>dynalist</flavor>
+        <source>https://dynalist.io</source>
+        <ownerName>Patrick</ownerName>
+        <ownerEmail>patrickjdsquire@yahoo.com.au</ownerEmail>
+    </head>
+    <body>
+        <outline text="Pursuit"/>
+        <outline text="the phantom division"/>
+        <outline text="Pop, Synth Pop, 80s"/>
+        <outline text="Synthy pop sound. Arcade Vanguard a really cool synthy track. Duke of Death"/>
+        <outline text="7"/>
+    </body>
+</opml>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opml version="2.0">
+    <head>
+        <title>Hot Milk - A Call to the Void</title>
+        <flavor>dynalist</flavor>
+        <source>https://dynalist.io</source>
+        <ownerName>Patrick</ownerName>
+        <ownerEmail>patrickjdsquire@yahoo.com.au</ownerEmail>
+    </head>
+    <body>
+        <outline text="Hot Milk"/>
+        <outline text="A Call to the Void"/>
+        <outline text="Rock, Metal, Pop Punk"/>
+        <outline text="__Great pop punk metal album. high energy and awesome mix of male and female vocals__ "/>
+        <outline text="7.5"/>
+    </body>
+</opml>

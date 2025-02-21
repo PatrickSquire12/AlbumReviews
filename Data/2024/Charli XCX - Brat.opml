@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opml version="2.0">
+    <head>
+        <title>Charli XCX - Brat</title>
+        <flavor>dynalist</flavor>
+        <source>https://dynalist.io</source>
+        <ownerName>Patrick</ownerName>
+        <ownerEmail>patrickjdsquire@yahoo.com.au</ownerEmail>
+    </head>
+    <body>
+        <outline text="Charli XCX"/>
+        <outline text="Brat"/>
+        <outline text="Pop, Dance"/>
+        <outline text="Really good fun album with a lot of good tracks"/>
+        <outline text="8"/>
+    </body>
+</opml>

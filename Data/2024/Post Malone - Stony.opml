@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opml version="2.0">
+    <head>
+        <title>Post Malone - Stony</title>
+        <flavor>dynalist</flavor>
+        <source>https://dynalist.io</source>
+        <ownerName>Patrick</ownerName>
+        <ownerEmail>patrickjdsquire@yahoo.com.au</ownerEmail>
+    </head>
+    <body>
+        <outline text="Post Malone"/>
+        <outline text="Stony"/>
+        <outline text="Rap, Pop"/>
+        <outline text="Typical Post Malone"/>
+        <outline text="5"/>
+    </body>
+</opml>
