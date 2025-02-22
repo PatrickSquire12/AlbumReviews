@@ -1,5 +1,5 @@
 ---
-title: "Album Reviews 2024"
+title: "Album Reviews"
 output: html_document
 date: "2025-02-18"
 ---
