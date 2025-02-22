@@ -1,0 +1,81 @@
+---
+title: "Album Reviews"
+output: html_document
+date: "2025-02-18"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(knitr)
+library(DT)
+```
+
+## Album Reviews
+
+A summary of all of my album reviews
+
+```{r getfiles ,echo=FALSE}
+#set directory, get folder names
+current_dir = paste(getwd(),"Data",sep="/")
+folder_names = list.dirs(current_dir, recursive=FALSE)
+file_names = array()
+
+#loop through file names get all .txt file names
+file_names = array()
+for (x in 1:length(folder_names)){
+  files = list.files(folder_names[x],pattern = "\\.txt$", full.names = TRUE)
+  file_names = append(file_names,files)
+}
+file_names = na.omit(file_names)
+```
+
+```{r readdata ,echo=FALSE}
+#read each file into a dataframe
+
+#read entries
+for (x in 1:length(file_names)){
+  file_data = readLines(file_names[x])
+  
+  #year - get the year from the base folder name
+  year_reviewed = as.numeric(substr(gsub('/','',gsub(current_dir,'',file_names[x])),1,4))[1]
+  
+  #rest of the data from the text file
+  artist = file_data[1]
+  album = file_data[2]
+  genre_tags = file_data[3]
+  review = gsub("[^a-zA-Z0-9 .,()]", "", file_data[4]) #escape chars removed
+  rating = file_data[5]
+  
+  #create a dataframe object
+  df_new = data.frame(Artist = artist,Album = album,"Genre Tags" = genre_tags,"Year Reviewed" = year_reviewed,Review = review,Rating = rating)
+  
+  #append
+  if (x == 1) {
+  df = df_new
+  }
+  else {
+    df = rbind(df,df_new)
+  }
+  
+}
+```
+## All Reviews
+```{r tables ,echo=FALSE}
+#colour palette
+color_palette <- colorRampPalette(c('red', 'green'))(10)
+
+colnames(df) = c("Artist","Album","Genre Tags","Year Reviewed","Review","Rating")
+df = df[order(df$Artist),] #sort by artist
+datatable(df, rownames=FALSE,options = list(pageLength = -1)) %>%
+  formatStyle(
+    'Rating',
+    backgroundColor = styleInterval(
+      seq(1, 9, by = 1),
+      color_palette
+        )
+  )
+
+```
+
+
