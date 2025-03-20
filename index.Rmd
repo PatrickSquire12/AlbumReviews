@@ -66,7 +66,11 @@ for (x in 1:length(file_names)){
 color_palette <- colorRampPalette(c('red', 'green'))(10)
 
 colnames(df) = c("Artist","Album","Genre Tags","Year Reviewed","Review","Rating")
+
+#sort by artist, then rating
 df = df[order(df$Artist),] #sort by artist
+df = df[order(df$Rating,decreasing = TRUE),]
+
 datatable(df, rownames=FALSE,options = list(pageLength = -1)) %>%
   formatStyle(
     'Rating',
