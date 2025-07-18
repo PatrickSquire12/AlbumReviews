@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opml version="2.0">
+    <head>
+        <title>RHCP - The Getaway</title>
+        <flavor>dynalist</flavor>
+        <source>https://dynalist.io</source>
+        <ownerName>Patrick</ownerName>
+        <ownerEmail>patrickjdsquire@yahoo.com.au</ownerEmail>
+    </head>
+    <body>
+        <outline text="Red Hot Chili Peppers"/>
+        <outline text="The Getaway"/>
+        <outline text="Funk, rock"/>
+        <outline text="Really suprised by this album. Wasn't expecting it to be as good as it was after the 2 title tracks. But there are some other really good songs on this album. Definitley feels like they're best work since Stadium Arcadium. Some really really good songs on it including The Getaway, Dark Necessities, The Longest Wave (one of the best ever chilis guitar riffs), Sick Love, Go Robot, and Encore (this one is a really unique and different sounding song to their usual stuff). A really good album thats right up there with there best."/>
+        <outline text="8.5"/>
+    </body>
+</opml>

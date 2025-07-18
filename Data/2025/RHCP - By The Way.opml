@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opml version="2.0">
+    <head>
+        <title>RHCP - By The Way</title>
+        <flavor>dynalist</flavor>
+        <source>https://dynalist.io</source>
+        <ownerName>Patrick</ownerName>
+        <ownerEmail>patrickjdsquire@yahoo.com.au</ownerEmail>
+    </head>
+    <body>
+        <outline text="Red Hot Chili Peppers"/>
+        <outline text="By The Way"/>
+        <outline text="Funk, rock"/>
+        <outline text="A slightly more chilled album than a lot of their other stuff. Really nice and relaxing to listen to, often when I think of red hot chilli peppers in my head its this sort of sound. Not every track is a complete banger, but the ones that are are some of their most truly iconic tracks - By The Way, Dosed, Zephyr, Can't Stop, Minor Thing, Venice Queen. Cabron is a nice suprise. Midnight has some crazy chord thing. Just standard elite chillis really."/>
+        <outline text="9"/>
+    </body>
+</opml>

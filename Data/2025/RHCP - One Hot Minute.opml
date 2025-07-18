@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opml version="2.0">
+    <head>
+        <title>RHCP - One Hot Minute</title>
+        <flavor>dynalist</flavor>
+        <source>https://dynalist.io</source>
+        <ownerName>Patrick</ownerName>
+        <ownerEmail>patrickjdsquire@yahoo.com.au</ownerEmail>
+    </head>
+    <body>
+        <outline text="Red Hot Chili Peppers"/>
+        <outline text="One Hot Minute"/>
+        <outline text="Funk, rock"/>
+        <outline text="Really good album, much funkier, darker then their more mainstream stuff, more of the spoken/rapping then singing. also a decent album length. some of the best guitar and bass work. aeroplane, my friends, coffee shop, walkabout, falling into grace."/>
+        <outline text="7.5"/>
+    </body>
+</opml>
